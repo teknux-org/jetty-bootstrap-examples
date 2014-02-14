@@ -1,10 +1,10 @@
-package org.teknux.jettybootstrap.examples.war;
+package org.teknux.jettybootstrap.examples.warfc;
 
 import org.teknux.jettybootstrap.JettyBootstrap;
 import org.teknux.jettybootstrap.JettyBootstrapException;
 
 public class Main {
 	public static void main(String[] args) throws JettyBootstrapException {
-		new JettyBootstrap().addWarApp("static.war", "/static").addWarApp("servlet.war","/servlet").startServer();
+		new JettyBootstrap().addWarAppFromClasspath("/static.war", "/static").addWarAppFromClasspath("/servlet.war","/servlet").startServer();
 	}
 }
