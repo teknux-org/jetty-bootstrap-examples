@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 		try {
 			JettyBootstrap jBootstrap = new JettyBootstrap();
-			jBootstrap.addExplodedWarAppFromClasspath("", "WEB-INF/web.xml");
+			jBootstrap.addExplodedWarAppFromClasspath("/webapp", null);
 			jBootstrap.startServer();
 			
 		} catch (JettyBootstrapException e) {
