@@ -111,12 +111,19 @@
 			<resource>
 				<directory>src/main/webapp</directory>
 				<targetPath>webapp</targetPath>
-				<includes>
-					<include>**</include>
-				</includes>
+				<excludes>
+					<exclude>VAADIN</exclude>
+				</excludes>
+			</resource>
+			<resource>
+				<directory>src/main/webapp/VAADIN</directory>
+				<targetPath>VAADIN</targetPath>
+				<excludes>
+					<exclude>widgetsets</exclude>
+				</excludes>
 			</resource>
 		</resources>
-		
+
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

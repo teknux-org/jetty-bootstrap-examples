@@ -12,12 +12,6 @@ import com.vaadin.ui.VerticalLayout;
 @SuppressWarnings("serial")
 public class MyVaadinUI extends UI
 {
-
-//    @WebServlet(value = "/*", asyncSupported = true)
-//    @VaadinServletConfiguration(productionMode = false, ui = MyVaadinUI.class, widgetset = "org.teknux.jb.examples.vaadin.AppWidgetSet")
-//    public static class Servlet extends VaadinServlet {
-//    }
-
     @Override
     protected void init(VaadinRequest request) {
         final VerticalLayout layout = new VerticalLayout();

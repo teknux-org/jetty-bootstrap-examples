@@ -11,7 +11,8 @@
 	</context-param>
 	<servlet>
 		<servlet-name>Application</servlet-name>
-		<servlet-class>com.vaadin.server.VaadinServlet</servlet-class>
+		<servlet-class>org.teknux.jb.examples.vaadin.MyServlet</servlet-class>
+<!-- 		<servlet-class>com.vaadin.server.VaadinServlet</servlet-class> -->
 		<!-- <servlet-class>org.teknux.jb.examples.vaadin.MyVaadinUI.Servlet</servlet-class>-->
 		<init-param>
 			<description>Vaadin UI to display</description>
