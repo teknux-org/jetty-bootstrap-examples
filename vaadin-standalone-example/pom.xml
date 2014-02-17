@@ -112,14 +112,15 @@
 				<directory>src/main/webapp</directory>
 				<targetPath>webapp</targetPath>
 				<excludes>
-					<exclude>VAADIN</exclude>
+					<exclude>VAADIN/**</exclude>
 				</excludes>
 			</resource>
 			<resource>
 				<directory>src/main/webapp/VAADIN</directory>
 				<targetPath>VAADIN</targetPath>
 				<excludes>
-					<exclude>widgetsets</exclude>
+					<exclude>widgetsets/**</exclude>
+					<exclude>gwt-unitCache/**</exclude>
 				</excludes>
 			</resource>
 		</resources>
