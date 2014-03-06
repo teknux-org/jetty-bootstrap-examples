@@ -3,8 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.teknux</groupId>
-	<artifactId>jetty-bootstrap-example-self</artifactId>
-	<version>1.0.0</version>
+	<artifactId>jetty-bootstrap-example-explodedwarjsp</artifactId>
+	<version>1.0.1-SNAPSHOT</version>
 
 	<build>
 		<plugins>
@@ -34,7 +34,7 @@
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
 									<manifestEntries>
-										<Main-Class>org.teknux.jettybootstrap.Main</Main-Class>
+										<Main-Class>org.teknux.jettybootstrap.examples.explodedwar.Main</Main-Class>
 									</manifestEntries>
 								</transformer>
 							</transformers>
@@ -53,21 +53,6 @@
 				</executions>
 			</plugin>
 		</plugins>
-
-		<resources>
-			<resource>
-				<filtering>false</filtering>
-				<directory>src/main/resources</directory>
-			</resource>
-			<resource>
-				<directory>src/main/webapp</directory>
-				<targetPath>webapp</targetPath>
-				<includes>
-					<include>**</include>
-				</includes>
-			</resource>
-		</resources>
-
 	</build>
 
 	<dependencies>
@@ -76,35 +61,21 @@
 			<artifactId>jetty-bootstrap</artifactId>
 			<version>${jetty-bootstrap.version}</version>
 		</dependency>
-
-		<!-- Logs -->
 		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>jul-to-slf4j</artifactId>
-			<version>${slf4j.version}</version>
-			<optional>true</optional>
+			<groupId>org.teknux</groupId>
+			<artifactId>jetty-bootstrap-jsp</artifactId>
+			<version>${jetty-bootstrap.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-			<version>${logback.version}</version>
-			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>org.codehaus.janino</groupId>
-			<artifactId>janino</artifactId>
-			<version>${janino.version}</version>
-			<optional>true</optional>
+			<groupId>org.teknux</groupId>
+			<artifactId>jetty-bootstrap-logs</artifactId>
+			<version>${jetty-bootstrap.version}</version>
 		</dependency>
 	</dependencies>
 
 	<properties>
 		<jetty-bootstrap.version>1.0.1-SNAPSHOT</jetty-bootstrap.version>
 		<maven-compiler.version>2.3.2</maven-compiler.version>
-
-		<slf4j.version>1.7.5</slf4j.version>
-		<logback.version>1.0.13</logback.version>
-		<janino.version>2.6.1</janino.version>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>

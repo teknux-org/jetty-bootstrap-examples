@@ -5,7 +5,7 @@
 	<groupId>boostrap.jetty</groupId>
 	<artifactId>vaadin-example</artifactId>
 	<packaging>jar</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>Vaadin and Jetty Bootstrap standalone example Web Application</name>
 
 	<properties>
@@ -90,19 +90,9 @@
 			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-			<version>1.0.13</version>
-		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>jul-to-slf4j</artifactId>
-			<version>1.7.5</version>
-		</dependency>
-		<dependency>
-			<groupId>org.codehaus.janino</groupId>
-			<artifactId>janino</artifactId>
-			<version>2.6.1</version>
+			<groupId>org.teknux</groupId>
+			<artifactId>jetty-bootstrap-logs</artifactId>
+			<version>1.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 

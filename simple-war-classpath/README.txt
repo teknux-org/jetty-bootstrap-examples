@@ -4,7 +4,7 @@ mvn package
 
 * Launch server
 
-java -jar target/jetty-bootstrap-example-warfc-1.0.0.jar
+java -jar target/jetty-bootstrap-example-warfc-*.jar
 
 * Test
 

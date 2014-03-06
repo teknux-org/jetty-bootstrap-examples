@@ -4,7 +4,7 @@ mvn package
 
 * Launch server
 
-java -jar runner/target/jetty-bootstrap-example-warfcmvnmultimodules-runner-1.0.0.jar
+java -jar runner/target/jetty-bootstrap-example-warfcmvnmultimodules-runner-*.jar
 
 * Test
 

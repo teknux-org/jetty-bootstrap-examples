@@ -7,7 +7,7 @@
     <groupId>org.teknux.examples</groupId>
     <artifactId>jsp-standalone-example</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
     <modules>
         <module>web-application</module>
         <module>jetty-boostrap-runner</module>

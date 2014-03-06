@@ -4,7 +4,7 @@ mvn package
 
 * Launch server
 
-java -jar target/jetty-bootstrap-example-self-1.0.0.jar
+java -jar target/jetty-bootstrap-example-explodedwarjsp-*.jar
 
 * Test
 

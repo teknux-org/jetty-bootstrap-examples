@@ -1,9 +1,0 @@
-*.classpath
-*.project
-*target
-*.settings
-web-ui/src/main/webapp/VAADIN/widgetsets*
-web-ui/src/main/webapp/VAADIN/gwt-unitCache*
-web-ui/src/main/webapp/VAADIN/themes/sma/*.css
-web-ui/src/main/webapp/VAADIN/themes/sma/addons.scss
-/logs

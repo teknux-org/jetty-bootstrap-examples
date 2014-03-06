@@ -4,7 +4,7 @@
 
 	<groupId>org.teknux</groupId>
 	<artifactId>jetty-bootstrap-example-explodedwar</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 
 	<build>
 		<plugins>
@@ -61,35 +61,16 @@
 			<artifactId>jetty-bootstrap</artifactId>
 			<version>${jetty-bootstrap.version}</version>
 		</dependency>
-
-		<!-- Logs -->
 		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>jul-to-slf4j</artifactId>
-			<version>${slf4j.version}</version>
-			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-			<version>${logback.version}</version>
-			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>org.codehaus.janino</groupId>
-			<artifactId>janino</artifactId>
-			<version>${janino.version}</version>
-			<optional>true</optional>
+			<groupId>org.teknux</groupId>
+			<artifactId>jetty-bootstrap-logs</artifactId>
+			<version>${jetty-bootstrap.version}</version>
 		</dependency>
 	</dependencies>
 
 	<properties>
 		<jetty-bootstrap.version>1.0.1-SNAPSHOT</jetty-bootstrap.version>
 		<maven-compiler.version>2.3.2</maven-compiler.version>
-
-		<slf4j.version>1.7.5</slf4j.version>
-		<logback.version>1.0.13</logback.version>
-		<janino.version>2.6.1</janino.version>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
