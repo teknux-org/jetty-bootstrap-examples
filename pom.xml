@@ -12,7 +12,6 @@
 		<module>exploded-war-classpath</module>
 		<module>exploded-war-classpath2</module>
 		<module>exploded-war-jsp</module>
-		<module>jsp-standalone-example</module>
 		<module>self</module>
 		<module>separate-war-multimodule</module>
 		<module>simple-war</module>
