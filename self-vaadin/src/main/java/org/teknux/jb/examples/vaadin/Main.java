@@ -8,9 +8,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		try {
-			JettyBootstrap jBootstrap = new JettyBootstrap();
-			jBootstrap.addExplodedWarAppFromClasspath("/webapp", null);
-			jBootstrap.startServer();
+			JettyBootstrap.startSelf();
 			
 		} catch (JettyBootstrapException e) {
 			e.printStackTrace();

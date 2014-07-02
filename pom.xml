@@ -16,6 +16,6 @@
 		<module>separate-war-multimodule</module>
 		<module>simple-war</module>
 		<module>simple-war-classpath</module>
-		<module>vaadin</module>
+		<module>self-vaadin</module>
 	</modules>
 </project>
