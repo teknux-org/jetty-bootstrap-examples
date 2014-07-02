@@ -74,17 +74,9 @@
 	</dependencies>
 
 	<properties>
-		<jetty-bootstrap.version>1.0.1-SNAPSHOT</jetty-bootstrap.version>
+		<jetty-bootstrap.version>1.0.1</jetty-bootstrap.version>
 		<maven-compiler.version>2.3.2</maven-compiler.version>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-
-	<repositories>
-		<repository>
-			<id>sonatype-nexus-snapshots</id>
-			<name>Sonatype Nexus Snapshots</name>
-			<url>http://oss.sonatype.org/content/repositories/snapshots</url>
-		</repository>
-	</repositories>
 </project>

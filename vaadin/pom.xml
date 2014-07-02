@@ -28,11 +28,6 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
-		<repository>
-			<id>sonatype-nexus-snapshots</id>
-			<name>Sonatype Nexus Snapshots</name>
-			<url>http://oss.sonatype.org/content/repositories/snapshots</url>
-		</repository>
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
@@ -87,12 +82,12 @@
 		<dependency>
 			<groupId>org.teknux</groupId>
 			<artifactId>jetty-bootstrap</artifactId>
-			<version>1.0.1-SNAPSHOT</version>
+			<version>1.0.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.teknux</groupId>
 			<artifactId>jetty-bootstrap-logs</artifactId>
-			<version>1.0.1-SNAPSHOT</version>
+			<version>1.0.1</version>
 		</dependency>
 	</dependencies>
 

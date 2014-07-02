@@ -93,14 +93,7 @@
 	</dependencies>
 
 	<properties>
-		<jetty-bootstrap.version>1.0.1-SNAPSHOT</jetty-bootstrap.version>
+		<jetty-bootstrap.version>1.0.1</jetty-bootstrap.version>
 	</properties>
 
-	<repositories>
-		<repository>
-			<id>sonatype-nexus-snapshots</id>
-			<name>Sonatype Nexus Snapshots</name>
-			<url>http://oss.sonatype.org/content/repositories/snapshots</url>
-		</repository>
-	</repositories>
 </project>
