@@ -4,7 +4,7 @@
 
 	<groupId>org.teknux</groupId>
 	<artifactId>jetty-bootstrap-example-war</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.3-SNAPSHOT</version>
 
 	<build>
 		<plugins>
@@ -69,7 +69,7 @@
 	</dependencies>
 
 	<properties>
-		<jetty-bootstrap.version>1.0.1</jetty-bootstrap.version>
+		<jetty-bootstrap.version>1.0.3</jetty-bootstrap.version>
 		<maven-compiler.version>2.3.2</maven-compiler.version>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

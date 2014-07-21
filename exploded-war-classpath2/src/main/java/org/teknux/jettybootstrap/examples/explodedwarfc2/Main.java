@@ -5,7 +5,8 @@ import org.teknux.jettybootstrap.JettyBootstrapException;
 
 public class Main {
 	public static void main(String[] args) throws JettyBootstrapException {
-		new JettyBootstrap().addExplodedWarAppFromClasspath("/webapp", null)
-				.startServer();
+	    JettyBootstrap jettyBootstrap = new JettyBootstrap();
+	    jettyBootstrap.addExplodedWarAppFromClasspath("/webapp", null);
+	    jettyBootstrap.startServer();
 	}
 }

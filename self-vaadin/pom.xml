@@ -4,7 +4,7 @@
 
 	<groupId>org.teknux</groupId>
 	<artifactId>jetty-bootstrap-example-self-vaadin</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.3-SNAPSHOT</version>
 
 	<build>
 		<resources>
@@ -245,7 +245,7 @@
 	</dependencies>
 
 	<properties>
-		<jetty-bootstrap.version>1.0.1</jetty-bootstrap.version>
+		<jetty-bootstrap.version>1.0.3</jetty-bootstrap.version>
 	
 		<vaadin.version>7.1.8</vaadin.version>
 		<vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>

@@ -5,7 +5,7 @@
 
 	<groupId>com.sma</groupId>
 	<artifactId>staticwar</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.3-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<build>

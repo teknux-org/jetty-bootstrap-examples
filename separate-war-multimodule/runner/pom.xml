@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.teknux</groupId>
 		<artifactId>jetty-bootstrap-example-warfcmvnmultimodules</artifactId>
-		<version>1.0.1-SNAPSHOT</version>
+		<version>1.0.3-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>jetty-bootstrap-example-warfcmvnmultimodules-runner</artifactId>
@@ -93,7 +93,7 @@
 	</dependencies>
 
 	<properties>
-		<jetty-bootstrap.version>1.0.1</jetty-bootstrap.version>
+		<jetty-bootstrap.version>1.0.3</jetty-bootstrap.version>
 	</properties>
 
 </project>
